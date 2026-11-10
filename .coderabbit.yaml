@@ -1,0 +1,16 @@
+# Central CodeRabbit baseline. Applies to every repo in this org that has no
+# .coderabbit.yaml of its own. Reference: https://docs.coderabbit.ai/reference/configuration
+language: en-US
+reviews:
+  profile: chill
+  high_level_summary: true
+  poem: false
+  review_status: true
+  auto_review:
+    enabled: true
+    drafts: false
+    ignore_usernames:
+      - renovate[bot]
+      - dependabot[bot]
+      - github-actions[bot]
+      - release-please[bot]
